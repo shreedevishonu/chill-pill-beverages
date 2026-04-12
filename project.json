@@ -1,0 +1,27 @@
+{
+  "overview": "Chill Pill Beverages is a vibrant, fully animated e-commerce website for an Indian beverage brand. Features 3D bottle animations, glassmorphism design, a full online store with cart management, and 6 pages showcasing 6 launch products with Pan India delivery.",
+  "features": [
+    "3D animated bottles using React Three Fiber",
+    "6 product pages: Tangy Orange, Lime & Lemon, Shikanji, Club Soda, Frutu Fizy, Jeera Soda",
+    "Full online store with slide-in cart, quantity controls, and order confirmation",
+    "Glassmorphism sticky navigation and UI elements",
+    "Scroll-triggered entrance animations and floating keyframes",
+    "Filter tabs on products page (All/Juice/Soda)",
+    "Checkout form with Pan India delivery info",
+    "Admin content management panel at /admin",
+    "About, Contact, and brand story pages",
+    "Mobile-first responsive design with hamburger menu"
+  ],
+  "category": "e-commerce",
+  "tags": [
+    "beverages",
+    "india",
+    "3d-animations",
+    "ecommerce",
+    "glassmorphism",
+    "react-three-fiber",
+    "motion",
+    "tailwind"
+  ],
+  "last_updated": "2026-04-10T18:43:07.720Z"
+}

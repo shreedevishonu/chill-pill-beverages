@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7CB518;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="limeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5CB85C;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#3D9970;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="lemonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE066;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:0.6" />
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#bgGrad)" rx="20" ry="20"/>
+
+  <!-- Glow overlay -->
+  <ellipse cx="200" cy="250" rx="180" ry="220" fill="url(#glowGrad)" />
+
+  <!-- Background circles -->
+  <circle cx="80" cy="100" r="60" fill="rgba(255,255,255,0.08)" />
+  <circle cx="340" cy="400" r="80" fill="rgba(255,255,255,0.06)" />
+  <circle cx="360" cy="80" r="40" fill="rgba(255,255,255,0.08)" />
+  <circle cx="40" cy="420" r="50" fill="rgba(255,255,255,0.06)" />
+
+  <!-- Large lime slice (background) -->
+  <g transform="translate(70, 130) rotate(-15)">
+    <circle cx="0" cy="0" r="75" fill="url(#limeGrad)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <!-- Lime segments -->
+    <line x1="0" y1="-60" x2="0" y2="60" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <line x1="-52" y1="-30" x2="52" y2="30" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <line x1="-52" y1="30" x2="52" y2="-30" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="12" fill="rgba(255,255,255,0.3)"/>
+  </g>
+
+  <!-- Large lemon slice (background) -->
+  <g transform="translate(310, 200) rotate(20)">
+    <circle cx="0" cy="0" r="70" fill="url(#lemonGrad)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <!-- Lemon segments -->
+    <line x1="0" y1="-55" x2="0" y2="55" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <line x1="-48" y1="-27" x2="48" y2="27" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <line x1="-48" y1="27" x2="48" y2="-27" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <line x1="-27" y1="-48" x2="27" y2="48" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <line x1="-27" y1="48" x2="27" y2="-48" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="12" fill="rgba(255,255,255,0.35)"/>
+  </g>
+
+  <!-- Small lime slice -->
+  <g transform="translate(330, 370) rotate(35)">
+    <circle cx="0" cy="0" r="40" fill="url(#limeGrad)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <line x1="0" y1="-32" x2="0" y2="32" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <line x1="-28" y1="-16" x2="28" y2="16" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <line x1="-28" y1="16" x2="28" y2="-16" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <circle cx="0" cy="0" r="7" fill="rgba(255,255,255,0.3)"/>
+  </g>
+
+  <!-- Small lemon -->
+  <g transform="translate(60, 380) rotate(-20)">
+    <ellipse cx="0" cy="0" rx="32" ry="26" fill="url(#lemonGrad)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="8" fill="rgba(255,255,255,0.3)"/>
+  </g>
+
+  <!-- Brand name background panel -->
+  <rect x="40" y="220" width="320" height="110" rx="16" ry="16" fill="rgba(0,0,0,0.25)" />
+
+  <!-- Product name -->
+  <text x="200" y="270" text-anchor="middle" font-family="'Arial Black', 'Arial', sans-serif" font-size="42" font-weight="900" fill="white" letter-spacing="1">
+    Lime &amp;
+  </text>
+  <text x="200" y="316" text-anchor="middle" font-family="'Arial Black', 'Arial', sans-serif" font-size="42" font-weight="900" fill="white" letter-spacing="1">
+    Lemon
+  </text>
+
+  <!-- Tagline -->
+  <text x="200" y="355" text-anchor="middle" font-family="'Arial', sans-serif" font-size="14" fill="rgba(255,255,255,0.85)" font-style="italic">
+    Double the zing, double the life
+  </text>
+
+  <!-- Chill Pill branding -->
+  <rect x="130" y="440" width="140" height="36" rx="18" ry="18" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" />
+  <text x="200" y="463" text-anchor="middle" font-family="'Arial Black', 'Arial', sans-serif" font-size="14" font-weight="800" fill="white" letter-spacing="2">
+    CHILL PILL
+  </text>
+
+  <!-- Decorative dots -->
+  <circle cx="160" cy="190" r="4" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="240" cy="170" r="3" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="280" cy="145" r="5" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="130" cy="420" r="3" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="270" cy="415" r="4" fill="rgba(255,255,255,0.35)"/>
+
+  <!-- Sparkle effects -->
+  <g transform="translate(170, 140)">
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="white" stroke-width="1.5" opacity="0.7"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="white" stroke-width="1.5" opacity="0.7"/>
+    <line x1="-5" y1="-5" x2="5" y2="5" stroke="white" stroke-width="1" opacity="0.5"/>
+    <line x1="-5" y1="5" x2="5" y2="-5" stroke="white" stroke-width="1" opacity="0.5"/>
+  </g>
+  <g transform="translate(350, 310)">
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="white" stroke-width="1.5" opacity="0.6"/>
+    <line x1="0" y1="-6" x2="0" y2="6" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  </g>
+</svg>
