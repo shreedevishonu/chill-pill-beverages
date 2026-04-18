@@ -5,27 +5,14 @@ import { useEffect, useState } from "react";
 import { useCartStore } from "../store/cartStore";
 
 function LogoImage() {
-  const [imgError, setImgError] = useState(false);
-  if (imgError) {
-    return (
-      <span
-        className="font-display font-black text-xl tracking-tight"
-        style={{ color: "#FF6B35" }}
-      >
-        ChillPill
-      </span>
-    );
-  }
   return (
     <img
       src="/assets/chill-pill-logo.svg"
       alt="Chill Pill"
       className="h-10 w-auto object-contain"
-      onError={() => setImgError(true)}
     />
   );
 }
-
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/products", label: "Products" },
