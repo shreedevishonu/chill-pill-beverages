@@ -7,7 +7,7 @@ import { useCartStore } from "../store/cartStore";
 function LogoImage() {
   return (
     <img
-      src="/assets/chill-pill-logo.svg"
+      src="/chill-pill-logo.svg"
       alt="Chill Pill"
       className="h-10 w-auto object-contain"
     />
