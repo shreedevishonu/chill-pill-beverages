@@ -6,9 +6,9 @@ import {
 
 const TIMELINE = [
   {
-    year: "2022",
-    title: "Founded in Bangalore",
-    desc: "Three friends, frustrated with sugary artificial beverages, decide India deserves honest, flavorful drinks rooted in local tradition.",
+    year: "2025",
+    title: "Founded in Vadodara, Gujarat",
+    desc: "Mithun Patel, passionate about natural beverages, decides India deserves honest, flavorful drinks rooted in local tradition.",
     color: "#FF6B35",
   },
   {
@@ -33,10 +33,10 @@ const TIMELINE = [
 
 const TEAM = [
   {
-    name: "Arjun Mehta",
-    initials: "AM",
+    name: "Mithun Patel",
+    initials: "MP",
     title: "Founder & CEO",
-    bio: "Serial entrepreneur with 10+ years in FMCG and a passion for Indian flavors.",
+    bio: "Passionate entrepreneur from Vadodara, Gujarat with a vision to bring fresh natural beverages to every Indian.",
     color: "#FF6B35",
   },
   {
