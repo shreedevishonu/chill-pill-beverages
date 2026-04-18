@@ -28,7 +28,7 @@ export const products: Product[] = [
       "No Preservatives",
       "No Added Sugar",
     ],
-    price: 45,
+    price: 10,
     image: "/images/products/tangy-orange.png",
   },
   {
@@ -46,7 +46,7 @@ export const products: Product[] = [
       "Natural Mint Extract",
       "No Preservatives",
     ],
-    price: 45,
+    price: 10,
     image: "/images/products/lime-lemon.svg",
   },
   {
@@ -65,7 +65,7 @@ export const products: Product[] = [
       "Amchur Powder",
       "No Preservatives",
     ],
-    price: 40,
+    price: 10,
     image: "/images/products/shikanji.png",
   },
   {
@@ -83,7 +83,7 @@ export const products: Product[] = [
       "Zero Calories",
       "Zero Sugar",
     ],
-    price: 30,
+    price: 10,
     image: "/images/products/club-soda.png",
   },
   {
@@ -102,7 +102,7 @@ export const products: Product[] = [
       "Citric Acid",
       "No Artificial Colors",
     ],
-    price: 35,
+    price: 10,
     image: "/images/products/frutu-fizy.png",
   },
   {
@@ -121,7 +121,7 @@ export const products: Product[] = [
       "Ginger Extract",
       "Natural Cane Sugar",
     ],
-    price: 35,
+    price: 10,
     image: "/images/products/jeera-soda.png",
   },
 ];
